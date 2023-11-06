@@ -2,7 +2,7 @@ import '/css/style.css'
 import javascriptLogo from '/images/javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
-import date from 'date-and-time'
+import * as date from 'date-and-time'
 import * as dayjs from 'dayjs'
 let now = dayjs();
 let day1 = dayjs("2023-09-05");
